@@ -1,0 +1,90 @@
+.status-view {
+  flex: 1;
+  background: #0b141a;
+  overflow-y: auto;
+}
+
+.status-header {
+  background: #202c33;
+  padding: 20px;
+  border-bottom: 1px solid #2a3942;
+}
+
+.status-header h2 {
+  color: #e9edef;
+  font-size: 24px;
+}
+
+.my-status {
+  padding: 20px;
+  border-bottom: 8px solid #111b21;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.status-avatar-container {
+  position: relative;
+}
+
+.status-avatar-container img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.add-status-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00a884;
+  border: 3px solid #0b141a;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+
+.status-avatar-ring {
+  padding: 2px;
+  background: linear-gradient(45deg, #00a884, #25d366);
+  border-radius: 50%;
+}
+
+.status-avatar-ring img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid #0b141a;
+}
+
+.status-info h3 {
+  color: #e9edef;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.status-info p {
+  color: #667781;
+  font-size: 14px;
+}
+
+.recent-status {
+  padding: 20px;
+}
+
+.recent-status > h3 {
+  color: #667781;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
