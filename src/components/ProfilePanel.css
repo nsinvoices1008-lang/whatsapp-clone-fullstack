@@ -1,0 +1,102 @@
+.profile-panel {
+  width: 400px;
+  background: #111b21;
+  border-left: 1px solid #2a3942;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  background: #202c33;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-header button {
+  background: none;
+  border: none;
+  color: #aebac1;
+  cursor: pointer;
+}
+
+.profile-header h2 {
+  color: #e9edef;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.profile-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.profile-photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: #202c33;
+}
+
+.profile-photo-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.edit-photo-btn {
+  background: none;
+  border: none;
+  color: #00a884;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.edit-photo-btn:hover {
+  background: #2a3942;
+}
+
+.profile-info-section {
+  padding: 20px;
+}
+
+.info-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #2a3942;
+}
+
+.info-item label {
+  display: block;
+  color: #00a884;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.info-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-value span {
+  color: #e9edef;
+  font-size: 16px;
+}
+
+.info-value svg {
+  color: #667781;
+  cursor: pointer;
+}
+
+.info-value svg:hover {
+  color: #aebac1;
+}
